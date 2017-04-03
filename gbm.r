@@ -26,7 +26,7 @@ test = test[,"ID":=NULL]
 fitControl <- trainControl(method = "repeatedcv", number = 10, repeats = 10)
 
 set.seed(1178)
-gbm_model <- train(as.factor(target) ~ ., data = train, method = "gbm", trControl = fitControl,verbose = FALSE, metric = lossLoss)
+gbm_model <- train(as.factor(target) ~ ., data = train, method = "gbm", trControl = fitControl,verbose = FALSE, metric = logLoss)
 
 pred <- predict(gbm_model,test,type="prob")[,2]
 
