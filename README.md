@@ -1,4 +1,4 @@
-# ML MiniHack 
+# ML MiniHack (DataHulk)
 My solution to 6 Hrs Mini Machine Learning Hack.
 I #Ranked 18 in the competition with ( 0.681 ) score.</br></br>
 <b> Aim : </b> The aim of this competition was to predict the price of given stock will move up or down on the next day. </br>
